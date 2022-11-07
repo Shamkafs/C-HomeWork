@@ -30,6 +30,23 @@ int removeLastDigit (int number)
     return (number / 10);
 }
 
+//int Reverse(int number)
+//{
+//    int answer = 0;
+//    while(number > 0)
+//    {
+//        answer = answer * 10 + number %10;
+//        number = number / 10;
+//    }
+//   return answer;
+//}
+//
+//bool CheckPalindrome(int number)
+//{
+//    return Reverse(number) == number;
+//}
+//
+//
 bool comparingNumbers(int number)
 {
     int firstDigit = removeLastDigit(removeLastDigit(removeLastDigit(removeLastDigit(number))));
