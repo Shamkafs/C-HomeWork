@@ -37,4 +37,4 @@ int lenght = 10;
 int[] array = CreateArray(lenght);
 printArray(array);
 System.Console.WriteLine();
-System.Console.Write($"Количество чётных чисел в случайном трёхзначном массиве ->  {QuantityEvenNumbers(array)}");
+System.Console.Write($"Количество чётных чисел в массиве с случайными трёхзначными значениями ->  {QuantityEvenNumbers(array)}");
