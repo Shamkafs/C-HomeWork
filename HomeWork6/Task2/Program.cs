@@ -16,7 +16,10 @@ void IntersectionPoint(double k1, double b1, double k2, double b2)
     {
         System.Console.Write("Заданные прямые не пересекаются!");
     }
-    System.Console.Write($"Прямые пересекаются в точке с координатами: ({x:f2}, {y:f2})");
+    else
+    {
+        System.Console.Write($"Прямые пересекаются в точке с координатами: ({x:f2}, {y:f2})");
+    }
 }
 
 double k1 = Prompt("Введите число k1 из уравнения y = k1 * x + b1: ");
